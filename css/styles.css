@@ -1,0 +1,49 @@
+:root {
+  --primery-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --accent-color: #4d5ae5;
+  --hero-text-color: #ffffff;
+}
+
+.list {
+  list-style: none;
+}
+/* 1 level of text--  #434455; */
+/* 2 level of text--  #2E2F42;  */
+/* color for white text-- #FFFFFF; */
+/* accent color-- #4D5AE5 */
+/* background level-1: #FFFFFF; */
+/* background level-2: #F4F4FD; */
+
+body {
+  background-color: #ffffff;
+  color: var(--primery-text-color);
+  /* style logo */
+}
+.logo-web {
+  color: var(--accent-color);
+}
+.logo-studio {
+  color: var(--title-text-color);
+}
+/* /style logo */
+/* nav-style */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-contact:hover,
+.site-contact:focus {
+  color: var(--primery-text-color);
+}
+/* /nav-style */
+/* hero section */
+.section-hero {
+  background-color: var(--title-text-color);
+  color: #ffffff;
+}
+/* /hero section */
+/* section style */
+.section-title {
+  color: var(--title-text-color);
+}
+/* /section style */
