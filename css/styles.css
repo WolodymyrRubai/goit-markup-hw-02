@@ -16,15 +16,49 @@
 /* background level-2: #F4F4FD; */
 
 body {
+  font-family: "Roboto", sans-serif;
+
   background-color: #ffffff;
   color: var(--primery-text-color);
   /* style logo */
 }
-.logo-web {
+/* .logo-web {
   color: var(--accent-color);
+
+  font-family: "Raleway";
+
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  width: 44px;
+  height: 24px;
 }
 .logo-studio {
   color: var(--title-text-color);
+  font-family: "Raleway";
+
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  width: 71px;
+  height: 24px;
+} */
+
+.logo{
+  color:var(--title-text-color)
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+}
+.logo-web{
+  color: var(--accent-color);
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
 }
 /* /style logo */
 /* nav-style */
@@ -37,13 +71,22 @@ body {
 }
 /* /nav-style */
 /* hero section */
-.section-hero {
+.hero {
   background-color: var(--title-text-color);
-  color: #ffffff;
+}
+.hero-title {
+  color: var(--hero-text-color);
+}
+.hero-btn {
+  background-color: var(--accent-color);
+  color: var(--hero-text-color);
 }
 /* /hero section */
 /* section style */
 .section-title {
+  color: var(--title-text-color);
+}
+.section-caption {
   color: var(--title-text-color);
 }
 /* /section style */
