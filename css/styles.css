@@ -3,10 +3,15 @@
   --title-text-color: #2e2f42;
   --accent-color: #4d5ae5;
   --hero-text-color: #ffffff;
+  --background-fone:#F4F4FD;
+  --text-dark-background:#E7E9FC;
 }
 
 .list {
   list-style: none;
+}
+.link {
+  text-decoration: none;
 }
 /* 1 level of text--  #434455; */
 /* 2 level of text--  #2E2F42;  */
@@ -16,38 +21,18 @@
 /* background level-2: #F4F4FD; */
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+
 
   background-color: #ffffff;
   color: var(--primery-text-color);
-  /* style logo */
 }
-/* .logo-web {
-  color: var(--accent-color);
-
-  font-family: "Raleway";
-
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.33;
-  width: 44px;
-  height: 24px;
-}
-.logo-studio {
-  color: var(--title-text-color);
-  font-family: "Raleway";
-
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.33;
-  width: 71px;
-  height: 24px;
-} */
-
+/* ----------------style logo  */
 .logo{
-  color:var(--title-text-color)
+  color: var(--title-text-color)
   font-family: 'Raleway';
-font-style: normal;
+
 font-weight: 800;
 font-size: 18px;
 line-height: 1.33;
@@ -55,38 +40,171 @@ line-height: 1.33;
 .logo-web{
   color: var(--accent-color);
   font-family: 'Raleway';
-font-style: normal;
+
 font-weight: 800;
 font-size: 18px;
 line-height: 1.33;
 }
-/* /style logo */
-/* nav-style */
-.site-nav .link {
+/*----------------  /style logo */
+/*----------------  nav-style */
+.nav-link:hover,
+.nav-link:focus{
+  color: var(--accent-color);
+}
+.nav-link{
   color: var(--title-text-color);
+  
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
 .site-contact:hover,
 .site-contact:focus {
-  color: var(--primery-text-color);
+  color: var(--accent-color);
 }
-/* /nav-style */
-/* hero section */
+.site-contact{
+  color:var(--title-text-color);
+ 
+
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+font-style: normal;
+
+}
+/*---------------- /nav-style */
+
+
+/* ---------------- hero section */
 .hero {
   background-color: var(--title-text-color);
+
 }
 .hero-title {
   color: var(--hero-text-color);
+ 
+font-weight: 700;
+font-size: 56px;
+line-height: 1.08;
+text-align: center;
+letter-spacing: 0.02em;
 }
 .hero-btn {
   background-color: var(--accent-color);
   color: var(--hero-text-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
 }
-/* /hero section */
-/* section style */
-.section-title {
-  color: var(--title-text-color);
+/* ---------------- /hero section */
+/* ---------------- section style */
+.section {
 }
 .section-caption {
-  color: var(--title-text-color);
 }
-/* /section style */
+.list {
+}
+.section-items {
+}
+.section-title {
+color: var(--title-text-color);
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+
+}
+.setion-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+/*----------------  /section style */
+/* ---------------- section-2 style */
+.section-meta {
+}
+.meta-caption {
+  color: var(--title-text-color);
+  font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+.meta-item {
+}
+.list {
+}
+.meta-pic {
+}
+/* ---------------- /section-2 style */
+/* ---------------- section-3 style */
+.section-team {
+  background-color: var(--background-fone);
+}
+.team-caption {
+  color: var(--title-text-color);
+  font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+.team-item {
+}
+.list {
+}
+.team-pic {
+}
+.team-title {
+  color: var(--title-text-color);
+  font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.02em;
+
+}
+.team-text {
+  font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.02em;
+}
+/* ---------------- /section-3 style */
+/* ---------------- footer section  */
+.footer {
+  background-color: var(--title-text-color)
+}
+.logofoter{
+  color: var(--background-fone);
+  font-weight: 800;
+font-size: 18px;
+line-height: 1.16;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.footer-text {
+  color: var(--text-dark-background);
+  font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+/* ---------------- /footer section  */
+
+
