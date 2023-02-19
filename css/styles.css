@@ -5,6 +5,7 @@
   --hero-text-color: #ffffff;
   --background-fone:#F4F4FD;
   --text-dark-background:#E7E9FC;
+  --portfolio-back-btn-color:#404BBF
 }
 
 .list {
@@ -29,6 +30,7 @@ body {
   color: var(--primery-text-color);
 }
 /* ----------------style logo  */
+
 .logo{
   color: var(--title-text-color)
   font-family: 'Raleway';
@@ -81,6 +83,18 @@ font-style: normal;
 .hero {
   background-color: var(--title-text-color);
 
+}
+.visually-hidden {
+  position: absolute;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  width: 1px;
 }
 .hero-title {
   color: var(--hero-text-color);
@@ -204,7 +218,54 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
-
 /* ---------------- /footer section  */
+/* ---------------- PORTFOLIO menu-section */
 
+.button-all {
+  background-color: var(--portfolio-back-btn-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+color: var(--hero-text-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+cursor: pointer;
+}
+.btn{
+  background-color: var(--background-fone);
+  border: 1px solid #E7E9FC;
+  border-radius: 4px;
+  color: var(--accent-color);
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+border: 1px solid #E7E9FC;
+border-radius: 4px;
+letter-spacing: 0.04em;
+cursor: pointer;
+}
+
+/* ---------------- /PORTFOLIO menu-section */
+/* ----------------Section portfolio page */
+.portfolio-title{
+color: var(--title-text-color);
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+
+letter-spacing: 0.02em;
+}
+.portfolio-text{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5px; 
+  letter-spacing: 0.02em;
+  
+}
+/* ----------------/Section portfolio page  */
 
